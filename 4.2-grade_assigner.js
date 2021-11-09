@@ -6,6 +6,7 @@ const gradeAssigner = grade => arrGrade[(grade >= 0 && grade <= 64) * 4 +
     (grade >= 90 && grade <= 100) * 0];
 
 
+
 console.log(gradeAssigner(95));
 console.log(gradeAssigner(60));
 console.log(gradeAssigner(65));
